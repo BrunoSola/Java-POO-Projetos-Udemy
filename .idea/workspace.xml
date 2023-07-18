@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f0ab0d5-e286-404d-881d-84f7bba7fa98" name="Changes" comment="">
+    <list default="true" id="7f0ab0d5-e286-404d-881d-84f7bba7fa98" name="Changes" comment="UPDATE Programa de teste manual.">
       <change afterPath="$PROJECT_DIR$/../Herança/ExemplosHeranca/ExemplosHeranca.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java-POO-Projetos-Udemy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../POO/Estoque/Estoque.iml" afterDir="false" />
@@ -28,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="ProjectId" id="2SlOEuHAMGRsg3t7z02MgmkXVPU" />
   <component name="ProjectLevelVcsManager">
@@ -44,9 +45,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/workspace/Java_Completo_Nelio_Alves/Java-POO-Projetos-Udemy/src/enumeracoes_composicao/enums1/application"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Java_Completo_Nelio_Alves\Java-POO-Projetos-Udemy\src\enumeracoes_composicao\enums1\application" />
+      <recent name="C:\workspace\Java_Completo_Nelio_Alves\Java-POO-Projetos-Udemy\src\enumeracoes_composicao\enums1\model\entities" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Program">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -84,9 +92,65 @@
       <option name="presentableId" value="Default" />
       <updated>1689717593396</updated>
     </task>
+    <task id="LOCAL-00001" summary="Alterado Date para LocalDateTime">
+      <option name="closed" value="true" />
+      <created>1689720662184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689720662184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cria classes de dados e realiza a composição">
+      <option name="closed" value="true" />
+      <created>1689721119257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689721119257</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cria classes de dados e realiza a composição">
+      <option name="closed" value="true" />
+      <created>1689721182310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689721182310</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cria classes de dados e realiza a composição">
+      <option name="closed" value="true" />
+      <created>1689721266290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689721266290</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UPDATE Programa de teste manual.">
+      <option name="closed" value="true" />
+      <created>1689721325436</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689721325436</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Alterado Date para LocalDateTime" />
+    <MESSAGE value="Cria classes de dados e realiza a composição" />
+    <MESSAGE value="UPDATE Programa de teste manual." />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE Programa de teste manual." />
   </component>
 </project>

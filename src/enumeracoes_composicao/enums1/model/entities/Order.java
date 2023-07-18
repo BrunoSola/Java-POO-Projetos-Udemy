@@ -2,35 +2,32 @@ package enumeracoes_composicao.enums1.model.entities;
 
 import enumeracoes_composicao.enums1.model.enums.OrderStatus;
 
-import java.util.Date;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Order {
-    private Integer id;
-    private Date moment;
+    DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+
+    private LocalDateTime moment;
     private OrderStatus status;
+    private Client client;
+    private List<OrderItem> items = new ArrayList<>();
 
-    public Order(){
+    public Order() {
     }
-
-    public Order(Integer id, Date moment, OrderStatus status) {
-        this.id = id;
-        this.moment = moment;
+    public Order(LocalDateTime date, OrderStatus status, Client client) {
+        this.moment = date;
         this.status = status;
+        this.client = client;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Date getMoment() {
+    public LocalDateTime getMoment() {
         return moment;
     }
 
-    public void setMoment(Date moment) {
+    public void setMoment(LocalDateTime moment) {
         this.moment = moment;
     }
 
@@ -42,12 +39,46 @@ public class Order {
         this.status = status;
     }
 
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public List<OrderItem> getOrderItems() {
+        return items;
+    }
+
+    public void addItem(OrderItem item){
+        items.add(item);
+    }
+    public void removeItem(OrderItem item){
+        items.remove(item);
+    }
+
+    public double total(){
+        double sum = 0.0;
+        for (OrderItem item : items){
+            sum += item.subTotal();
+        }
+        return sum;
+    }
+
     @Override
     public String toString() {
-        return "Order{" +
-                "id=" + id +
-                ", moment=" + moment +
-                ", status=" + status +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("ORDER SUMMARY:\n");
+        sb.append("Order moment: ").append(moment.format(dtf1)+"\n");
+        sb.append("Order status: ").append(status+"\n");
+        sb.append("Client: ").append(client+"\n");
+        sb.append("Order Items: \n");
+        for (OrderItem item : items){
+            sb.append(item + "\n");
+        }
+        sb.append("Total Price: $").append(String.format("%.2f", total()));
+
+        return sb.toString();
     }
 }
