@@ -1,4 +1,4 @@
-package entities;
+package heranca_polimorfismo.registroDeFuncionarios.entities;
 
 public class OutsourcerdEmployee extends Employee{
 

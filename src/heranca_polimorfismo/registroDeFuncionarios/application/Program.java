@@ -1,7 +1,7 @@
 package heranca_polimorfismo.registroDeFuncionarios.application;
 
-import entities.Employee;
-import entities.OutsourcerdEmployee;
+import heranca_polimorfismo.registroDeFuncionarios.entities.Employee;
+import heranca_polimorfismo.registroDeFuncionarios.entities.OutsourcerdEmployee;
 
 import java.util.ArrayList;
 import java.util.List;
