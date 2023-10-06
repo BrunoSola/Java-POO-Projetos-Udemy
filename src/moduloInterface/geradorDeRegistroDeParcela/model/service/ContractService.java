@@ -4,7 +4,6 @@ import moduloInterface.geradorDeRegistroDeParcela.model.entites.Contract;
 import moduloInterface.geradorDeRegistroDeParcela.model.entites.Installment;
 
 import java.time.LocalDate;
-import java.util.Locale;
 
 public class ContractService {
     private OnlinePaymentService onlinePaymentService;
